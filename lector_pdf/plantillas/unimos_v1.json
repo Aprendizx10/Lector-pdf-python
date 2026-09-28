@@ -1,0 +1,932 @@
+{
+  "credito": {
+    "CAMPOS": {
+      "fecha_solicitud": [
+        310,
+        77,
+        422,
+        91
+      ],
+      "ciudad": [
+        424,
+        68,
+        574,
+        91
+      ],
+      "monto_solicitado": [
+        244,
+        132,
+        347,
+        155
+      ],
+      "plazo_meses": [
+        348,
+        139,
+        392,
+        155
+      ],
+      "otro_cual": [
+        439,
+        139,
+        574,
+        155
+      ]
+    },
+    "GRUPOS": {
+      "informacion_producto": {
+        "Crédito": [
+          95,
+          135
+        ],
+        "Cupo rotativo": [
+          95,
+          145
+        ],
+        "Nuevo": [
+          147,
+          135
+        ],
+        "Modificación": [
+          147,
+          145
+        ]
+      },
+      "para_producto_de_credito": {
+        "Deudor": [
+          236,
+          136
+        ],
+        "Codeudor": [
+          236,
+          147
+        ]
+      },
+      "destino": {
+        "Libre inversión": [
+          446,
+          135
+        ],
+        "Vivienda": [
+          484,
+          135
+        ],
+        "Educación": [
+          528,
+          135
+        ],
+        "Turismo": [
+          565,
+          135
+        ],
+        "Otro": [
+          416,
+          146
+        ]
+      }
+    }
+  },
+  "basica": {
+    "CAMPOS_B": {
+      "Primer apellido": [
+        42,
+        177,
+        291,
+        200
+      ],
+      "Segundo apellido": [
+        292,
+        177,
+        575,
+        200
+      ],
+      "Primer nombre": [
+        42,
+        200,
+        220,
+        222
+      ],
+      "Segundo nombre": [
+        221,
+        200,
+        377,
+        222
+      ],
+      "Identificación": [
+        480,
+        201,
+        575,
+        222
+      ],
+      "Personas a cargo": [
+        414,
+        222,
+        575,
+        245
+      ],
+      "Profesión": [
+        414,
+        245,
+        575,
+        267
+      ],
+      "Estrato": [
+        240,
+        274,
+        275,
+        292
+      ],
+      "Dirección de residencia": [
+        276,
+        269,
+        460,
+        291
+      ],
+      "Bloque": [
+        42,
+        292,
+        128,
+        311
+      ],
+      "Interior": [
+        129,
+        292,
+        210,
+        311
+      ],
+      "Apartamento": [
+        211,
+        292,
+        309,
+        311
+      ],
+      "Casa": [
+        310,
+        292,
+        390,
+        311
+      ],
+      "Torre": [
+        391,
+        292,
+        468,
+        311
+      ],
+      "Conjunto": [
+        469,
+        292,
+        575,
+        311
+      ],
+      "Ciudad / municipio": [
+        42,
+        312,
+        186,
+        331
+      ],
+      "Departamento": [
+        187,
+        312,
+        367,
+        331
+      ],
+      "Teléfono fijo": [
+        368,
+        312,
+        469,
+        331
+      ],
+      "Teléfono celular": [
+        470,
+        312,
+        575,
+        331
+      ],
+      "Correo electrónico personal": [
+        42,
+        332,
+        575,
+        353
+      ]
+    },
+    "GRUPOS_B": {
+      "Tipo de documento": {
+        "C.C.": [
+          466,
+          207
+        ],
+        "C.E.": [
+          466,
+          216
+        ]
+      },
+      "Estado civil": {
+        "Soltero": [
+          139,
+          230
+        ],
+        "Separado": [
+          192,
+          230
+        ],
+        "Casado": [
+          240,
+          230
+        ],
+        "Divorciado": [
+          297,
+          230
+        ],
+        "Unión libre": [
+          357,
+          230
+        ],
+        "Viudo": [
+          399,
+          230
+        ]
+      },
+      "Nivel de estudios": {
+        "Ninguno": [
+          119,
+          252
+        ],
+        "Primaria": [
+          119,
+          261
+        ],
+        "Bachillerato": [
+          170,
+          252
+        ],
+        "Técnico": [
+          182,
+          261
+        ],
+        "Tecnología": [
+          234,
+          252
+        ],
+        "Universitario": [
+          233,
+          261
+        ],
+        "Especialización": [
+          285,
+          252
+        ],
+        "Maestría": [
+          307,
+          261
+        ],
+        "Doctorado": [
+          357,
+          252
+        ]
+      },
+      "Tipo de vivienda": {
+        "Propia": [
+          138,
+          279
+        ],
+        "Arrendada": [
+          187,
+          279
+        ],
+        "Familiar": [
+          230,
+          279
+        ]
+      },
+      "Clase de vivienda": {
+        "Casa": [
+          489,
+          274
+        ],
+        "Apartamento": [
+          551,
+          274
+        ],
+        "Otro": [
+          489,
+          283
+        ]
+      },
+      "Envío de correspondencia": {
+        "Portal transaccional": [
+          215,
+          363
+        ],
+        "Correo personal": [
+          323,
+          359
+        ],
+        "Correo laboral": [
+          323,
+          370
+        ]
+      },
+      "Canal de contacto": {
+        "Vía E-mail": [
+          505,
+          367
+        ],
+        "Vía celular": [
+          560,
+          366
+        ]
+      }
+    },
+    "OPCIONALES_B": [
+      "Apartamento",
+      "Bloque",
+      "Casa",
+      "Conjunto",
+      "Interior",
+      "Profesión",
+      "Segundo nombre",
+      "Teléfono fijo",
+      "Torre"
+    ]
+  },
+  "laboral": {
+    "CAMPOS_LABORALES": {
+      "Empresa donde labora o negocio": [
+        42,
+        400,
+        371,
+        421
+      ],
+      "Teléfono empresa": [
+        372,
+        400,
+        480,
+        421
+      ],
+      "Extensión": [
+        481,
+        400,
+        575,
+        421
+      ]
+    },
+    "PREGUNTAS_LABORALES": {
+      "¿Administra recursos públicos?": {
+        "Sí": [
+          172,
+          433
+        ],
+        "No": [
+          213,
+          433
+        ]
+      },
+      "¿Es funcionario público?": {
+        "Sí": [
+          327,
+          433
+        ],
+        "No": [
+          369,
+          433
+        ]
+      },
+      "¿Persona públicamente expuesta?": {
+        "Sí": [
+          519,
+          433
+        ],
+        "No": [
+          561,
+          433
+        ]
+      }
+    }
+  },
+  "actividad": {
+    "OCUPACIONES_AE": {
+      "Industrial": [
+        139,
+        469
+      ],
+      "Servicios": [
+        139,
+        479
+      ],
+      "Pensionado": [
+        218,
+        469
+      ],
+      "Financiero": [
+        218,
+        479
+      ],
+      "Rentista de capital": [
+        317,
+        469
+      ],
+      "Ama de casa": [
+        317,
+        479
+      ],
+      "Comerciante": [
+        391,
+        469
+      ],
+      "Estudiante": [
+        391,
+        479
+      ],
+      "Otro": [
+        445,
+        469
+      ]
+    },
+    "CAMPOS_AE": {
+      "Especifique": [
+        466,
+        473,
+        575,
+        486
+      ],
+      "Descripción": [
+        42,
+        487,
+        524,
+        510
+      ],
+      "Código CIIU": [
+        525,
+        487,
+        575,
+        510
+      ]
+    }
+  },
+  "conyuge": {
+    "CAMPOS_CONYUGE": {
+      "Nombres y apellidos": [
+        42,
+        527,
+        326,
+        550
+      ],
+      "Identificación": [
+        473,
+        527,
+        575,
+        550
+      ],
+      "Empresa donde labora / ocupación": [
+        42,
+        551,
+        326,
+        573
+      ],
+      "Sueldo": [
+        327,
+        551,
+        436,
+        573
+      ],
+      "Celular": [
+        437,
+        551,
+        575,
+        573
+      ]
+    },
+    "DOCUMENTOS_CONYUGE": {
+      "C.C.": [
+        411,
+        538
+      ],
+      "C.E.": [
+        439,
+        538
+      ],
+      "T.I.": [
+        464,
+        538
+      ]
+    },
+    "CAMPOS_OCR_CONYUGE": {
+      "Nombres y apellidos": {
+        "caja": [
+          44,
+          528,
+          325,
+          549
+        ],
+        "etiqueta": "^\\s*nombres?\\s+y\\s+apellidos?\\s*:?\\s*",
+        "residuo": "^\\s*nombres?\\s+y\\s+apellidos?\\b"
+      },
+      "Empresa donde labora / ocupación": {
+        "caja": [
+          44,
+          551,
+          325,
+          572
+        ],
+        "etiqueta": "^\\s*empresa\\s+donde\\s+labora(?:\\s*[/|:]\\s*|\\s+)ocupaci[oó]n\\s*:?\\s*",
+        "residuo": "^\\s*(?:empresa\\s+donde\\s+labora|ocupaci[oó]n\\b)"
+      }
+    }
+  },
+  "financiera": {
+    "CAMPOS_FINANCIEROS": {
+      "Sueldo": [
+        127,
+        601,
+        193,
+        614
+      ],
+      "Otros ingresos": [
+        127,
+        614,
+        193,
+        627
+      ],
+      "Otros ingresos nómina": [
+        127,
+        627,
+        193,
+        640
+      ],
+      "Total ingresos mensuales": [
+        127,
+        665,
+        193,
+        679
+      ],
+      "Descuentos por nómina": [
+        276,
+        601,
+        341,
+        614
+      ],
+      "Gastos de sostenimiento": [
+        276,
+        614,
+        341,
+        627
+      ],
+      "Arrendamiento": [
+        276,
+        627,
+        341,
+        640
+      ],
+      "Gastos financieros": [
+        276,
+        640,
+        341,
+        653
+      ],
+      "Otros egresos": [
+        276,
+        653,
+        341,
+        665
+      ],
+      "Total egresos mensuales": [
+        276,
+        665,
+        341,
+        679
+      ],
+      "Activos": [
+        399,
+        601,
+        458,
+        614
+      ],
+      "Bienes raíces": [
+        399,
+        614,
+        458,
+        627
+      ],
+      "Otros activos": [
+        399,
+        627,
+        458,
+        640
+      ],
+      "Total activos": [
+        399,
+        665,
+        458,
+        679
+      ],
+      "Pasivos": [
+        515,
+        601,
+        575,
+        614
+      ],
+      "Deudas entidades financieras": [
+        515,
+        614,
+        575,
+        640
+      ],
+      "Otros pasivos": [
+        515,
+        640,
+        575,
+        653
+      ],
+      "Total pasivos": [
+        515,
+        665,
+        575,
+        679
+      ],
+      "Total patrimonio": [
+        399,
+        679,
+        575,
+        692
+      ]
+    },
+    "SUMAS_FINANCIERAS": {
+      "Total ingresos mensuales": [
+        "Sueldo",
+        "Otros ingresos",
+        "Otros ingresos nómina"
+      ],
+      "Total egresos mensuales": [
+        "Descuentos por nómina",
+        "Gastos de sostenimiento",
+        "Arrendamiento",
+        "Gastos financieros",
+        "Otros egresos"
+      ],
+      "Total activos": [
+        "Activos",
+        "Bienes raíces",
+        "Otros activos"
+      ],
+      "Total pasivos": [
+        "Pasivos",
+        "Deudas entidades financieras",
+        "Otros pasivos"
+      ]
+    }
+  },
+  "bienes": {
+    "TABLAS_BIENES": {
+      "Bienes inmuebles": {
+        "titulo_caja": [
+          42,
+          692,
+          575,
+          710
+        ],
+        "filas": [
+          [
+            724,
+            739
+          ],
+          [
+            739,
+            754
+          ]
+        ],
+        "nombre_fila": "Inmueble",
+        "columnas": {
+          "Tipo de inmueble": [
+            42,
+            146
+          ],
+          "Ciudad / barrio": [
+            147,
+            249
+          ],
+          "Dirección": [
+            250,
+            440
+          ],
+          "Valor comercial": [
+            441,
+            509
+          ],
+          "Valor hipoteca": [
+            510,
+            575
+          ]
+        },
+        "importes": [
+          "Valor comercial",
+          "Valor hipoteca"
+        ]
+      },
+      "Vehículos": {
+        "titulo_caja": [
+          42,
+          752,
+          575,
+          770
+        ],
+        "filas": [
+          [
+            784,
+            801
+          ],
+          [
+            801,
+            817
+          ]
+        ],
+        "nombre_fila": "Vehículo",
+        "columnas": {
+          "Tipo de vehículo": [
+            42,
+            172
+          ],
+          "Tipo de servicio": [
+            173,
+            292
+          ],
+          "Modelo": [
+            293,
+            345
+          ],
+          "Marca": [
+            346,
+            393
+          ],
+          "Placa": [
+            394,
+            440
+          ],
+          "Valor comercial": [
+            441,
+            509
+          ],
+          "Valor pignorado": [
+            510,
+            575
+          ]
+        },
+        "importes": [
+          "Valor comercial",
+          "Valor pignorado"
+        ]
+      }
+    }
+  },
+  "internacionales": {
+    "PREGUNTAS_OI": {
+      "Realiza transacciones en moneda extranjera": {
+        "Sí": [
+          101,
+          847,
+          113,
+          859
+        ],
+        "No": [
+          133,
+          847,
+          145,
+          859
+        ]
+      },
+      "Posee cuenta en moneda extranjera": {
+        "Sí": [
+          85,
+          870,
+          98,
+          883
+        ],
+        "No": [
+          118,
+          870,
+          130,
+          883
+        ]
+      }
+    },
+    "TRANSACCIONES_OI": {
+      "Importaciones": [
+        263,
+        836,
+        326,
+        848
+      ],
+      "Préstamos": [
+        263,
+        848,
+        326,
+        859
+      ],
+      "Inversiones": [
+        328,
+        836,
+        385,
+        848
+      ],
+      "Giros": [
+        328,
+        848,
+        385,
+        859
+      ],
+      "Exportaciones": [
+        386,
+        836,
+        462,
+        848
+      ],
+      "Pagos de servicios": [
+        386,
+        848,
+        462,
+        859
+      ],
+      "Remesas": [
+        464,
+        836,
+        511,
+        848
+      ],
+      "Otras": [
+        464,
+        848,
+        511,
+        859
+      ]
+    },
+    "PRODUCTOS_OI": {
+      "Cuenta corriente": [
+        102,
+        884,
+        181,
+        895
+      ],
+      "Cuenta de ahorros": [
+        102,
+        895,
+        181,
+        906
+      ]
+    },
+    "CAMPOS_OI": {
+      "Otras, ¿cuáles?": [
+        512,
+        835,
+        575,
+        859
+      ],
+      "Número de cuenta": [
+        167,
+        860,
+        263,
+        883
+      ],
+      "Moneda": [
+        264,
+        860,
+        346,
+        883
+      ],
+      "Banco": [
+        347,
+        860,
+        443,
+        883
+      ],
+      "Ciudad": [
+        444,
+        860,
+        508,
+        883
+      ],
+      "País": [
+        509,
+        860,
+        575,
+        883
+      ],
+      "Efectivo": [
+        218,
+        894,
+        387,
+        906
+      ],
+      "Cheque": [
+        420,
+        894,
+        575,
+        906
+      ]
+    },
+    "DATOS_CUENTA_OI": [
+      "Número de cuenta",
+      "Moneda",
+      "Banco",
+      "Ciudad",
+      "País"
+    ]
+  }
+}

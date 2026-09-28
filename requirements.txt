@@ -1,0 +1,7 @@
+pdfplumber==0.11.9
+pymupdf
+numpy
+opencv-python-headless
+paddlepaddle>=3,<4
+paddleocr>=3,<4
+openpyxl>=3.1,<4

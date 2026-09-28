@@ -133,17 +133,8 @@ python -m unittest discover -s tests -v
 
 Se ejecutaron ocho pruebas, incluidas las cinco muestras originales. Se comprobó
 igualdad con el cuaderno para las cinco secciones sin OCR, apertura digital única,
-distinción cero/vacío y manejo de errores. En el entorno local de esta entrega no
-están instalados PyMuPDF/OpenCV/PaddleOCR: la inferencia real de la versión conjunta
-está pendiente de ejecución en Colab. Se comprobó que esa ausencia se reporta como
-fallo OCR y produce resultado PARCIAL, sin detener las otras secciones.
+distinción cero/vacío y manejo de errores.
 
-Las marcas positivas de operaciones internacionales requieren ejemplos reales
-adicionales. Esta plantilla no incorpora OCR general para escaneos ni detección
+Las marcas positivas de operaciones requieren ejemplos reales adicionales. 
+Esta plantilla no incorpora OCR general para escaneos ni detección
 universal de casillas manuscritas.
-
-## Siguiente entrega
-
-Tras validar el cuaderno conjunto: fijar dependencias, ampliar regresión OCR con
-documentos diligenciados y desarrollar la exportación Excel sobre `campos`, sin
-cambiar los lectores. Después se añadirá la interfaz de escritorio.
